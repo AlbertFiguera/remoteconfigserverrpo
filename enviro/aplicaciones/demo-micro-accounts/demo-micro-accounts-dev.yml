@@ -1,7 +1,7 @@
 server:
   port: 8001
 variables:
-  message: hello from config server local repo actualitzat v2 asdfasd
+  message: hello from config server git repo actualitzat git push!!
 absis:
   cics:
     url: http://cics-micro-server-1-dev.tst.int.srv.caixabank.com

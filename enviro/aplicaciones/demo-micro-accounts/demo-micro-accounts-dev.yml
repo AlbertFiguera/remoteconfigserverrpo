@@ -1,0 +1,10 @@
+server:
+  port: 8001
+variables:
+  message: hello from config server local repo actualitzat v2 asdfasd
+absis:
+  cics:
+    url: http://cics-micro-server-1-dev.tst.int.srv.caixabank.com
+    
+logging:
+  config: classpath:logback-standalone.xml

@@ -1,0 +1,7 @@
+server:
+  port: 9000
+variables:
+  message: hello spring from config server
+  
+logging:
+  config: classpath:logback-standalone.xml

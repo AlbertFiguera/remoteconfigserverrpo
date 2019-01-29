@@ -1,7 +1,7 @@
 server:
   port: 9000
 variables:
-  message: hello spring from config server
+  message: hello spring from config server actuator refresh
   
 logging:
   config: classpath:logback-standalone.xml

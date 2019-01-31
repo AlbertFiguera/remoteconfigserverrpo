@@ -2,7 +2,6 @@ server:
 
   port: 9000
 variables:
-  message: hello spring actuator refresh v2!
-  
+  message: hello spring actuator refresh v2 desde k8s!!!!!
 logging:
   config: classpath:logback-standalone.xml

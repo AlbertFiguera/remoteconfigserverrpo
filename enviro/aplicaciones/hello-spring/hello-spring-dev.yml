@@ -1,17 +1,17 @@
 server:
-  port:9000
+  port: 9000
 management:
   security:
-    enabled:false
+    enabled: false
 variables:
-  message:<html><body> <h1> HOLA SPRING FROM CONFIG-SERVER !!</h1> <h2>REMOTECONFIGSERVERREPO/ENVIRO/APLICACIONES/HELLO-SPRING/APPLICATION.YML</h2> <img class="image" width="195" height="195" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/082017/untitled-1_160.png?itok=XxGjXl_p" alt="Logo of everis NTT DATA">  </body> </html>
+  message: <html><body> <h1> HOLA SPRING FROM CONFIG-SERVER !!</h1> <h2>REMOTECONFIGSERVERREPO/ENVIRO/APLICACIONES/HELLO-SPRING/APPLICATION.YML</h2> <img class="image" width="195" height="195" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/082017/untitled-1_160.png?itok=XxGjXl_p" alt="Logo of everis NTT DATA">  </body> </html>
 
 logging:
-  config:classpath=logback-standalone.xml
+  config: classpath=logback-standalone.xml
   
 spring:
   rabbitmq:
-    host:http://35.240.5.223
-    port:15672
-    username:guest
-    password:guest
+    host: http://35.240.5.223
+    port: 15672
+    username: guest
+    password: guest

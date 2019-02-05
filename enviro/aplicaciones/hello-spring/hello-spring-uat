@@ -1,0 +1,17 @@
+server:
+  port: 9001
+management:
+  security:
+    enabled: false
+variables:
+  message: <html><body> <h1> HOLA SPRING FROM CONFIG-SERVER UAT.</h1> </body> </html>
+
+logging:
+  config: classpath=logback-standalone.xml
+  
+spring:
+  rabbitmq:
+    host: http://35.240.5.223
+    port: 15672
+    username: guest
+    password: guest

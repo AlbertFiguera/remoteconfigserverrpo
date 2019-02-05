@@ -1,4 +1,4 @@
 server:
   port: 8880
 variables:
-  message: subdirectory uat
+  message: subdirectory uat!

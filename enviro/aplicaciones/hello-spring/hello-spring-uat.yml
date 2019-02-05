@@ -4,7 +4,7 @@ management:
   security:
     enabled: false
 variables:
-  message: <html><body> <h1> HOLA SPRING FROM CONFIG-SERVER UAT.</h1> </body> </html>
+  message: <html><body> <h1> HOLA SPRING FROM CONFIG-SERVER UAT.</h1> <h2>Updated for Spring Cloud Bus Testing</h2></body> </html>
 
 logging:
   config: classpath=logback-standalone.xml

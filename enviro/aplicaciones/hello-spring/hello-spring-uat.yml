@@ -8,10 +8,3 @@ variables:
 
 logging:
   config: classpath=logback-standalone.xml
-  
-spring:
-  rabbitmq:
-    host: http://35.240.5.223
-    port: 15672
-    username: guest
-    password: guest

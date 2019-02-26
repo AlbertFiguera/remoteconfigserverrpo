@@ -5,6 +5,3 @@ management:
     enabled: false
 variables:
   message: <html><body> <h1> HOLA SPRING FROM CONFIG-SERVER UAT.</h1> </body> </html>
-
-logging:
-  config: classpath=logback-standalone.xml
